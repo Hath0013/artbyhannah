@@ -252,6 +252,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   #mainNav .navbar-nav li a:hover {
     color: #41528f !important; }
 
+.dropdown-menu {
+  background-color: #F7F7F7;
+  border: none; }
+
 a {
   color: #d96866 !important; }
   a:hover {
@@ -337,7 +341,7 @@ footer {
   padding-top: 1.5rem;
   font-size: .7rem; }
   footer p {
-    color: #767676;
+    color: #c1c1c1;
     padding-top: 1.5rem; }
   footer a {
     color: #c1c1c1 !important;
@@ -360,12 +364,16 @@ footer {
     display: none; }
   .desktop {
     display: block; }
+  .bg-primary {
+    padding-bottom: 6rem !important;
+    padding-top: 10rem !important;
+    border-bottom: solid 2px #F7F7F7; }
   .hovereffect a, .hovereffect p {
-    padding: 3em 0;
+    padding: 4em 0;
     font-size: 1.15rem;
     font-weight: 400; }
   footer a {
     color: #c1c1c1;
-    font-size: 2rem;
-    margin-left: .5rem;
-    margin-right: .5rem; } }
+    font-size: 1.5rem;
+    margin-left: .75rem;
+    margin-right: .75rem; } }

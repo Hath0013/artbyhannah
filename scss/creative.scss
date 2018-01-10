@@ -49,7 +49,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   }
 }
 
-//Images
+.dropdown-menu {
+  background-color: $lightgrey;
+  border: none;
+}
 
 
 //Links
@@ -159,7 +162,7 @@ footer {
   padding-top: 1.5rem;
   font-size: .7rem;
   p {
-    color: $darkgrey;
+    color: $mediumgrey;
     padding-top: 1.5rem;
   }
   a {
@@ -191,24 +194,21 @@ footer {
   .desktop {
     display: block;
   }
-
-  .col-lg-8 {
-    flex: 0!important;
-    max-width: 90%!important;
-}
-
-bootstrap.min.css:6
-
+  .bg-primary {
+    padding-bottom: 6rem!important;
+    padding-top: 10rem!important;
+    border-bottom: solid 2px $lightgrey;
+  }
   .hovereffect a, .hovereffect p {
-  padding: 3em 0;
-  font-size: 1.15rem;
-  font-weight: 400;
+    padding: 4em 0;
+    font-size: 1.15rem;
+    font-weight: 400;
   }
   footer a {
       color: $mediumgrey;
-      font-size: 2rem;
-      margin-left: .5rem;
-      margin-right: .5rem;
+      font-size: 1.5rem;
+      margin-left: .75rem;
+      margin-right: .75rem;
   }
 }
 
